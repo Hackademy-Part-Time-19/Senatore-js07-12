@@ -10,44 +10,45 @@
 </head>
 
 <body style="background-color: #202020;">
-    <header>
-        <h1 style="color: white;">PRESTO.it</h1>
-
-
-        <nav class="Navbar">
+    <nav class="Navbar">
+        <div class="logo">
+            Presto.it
+        </div>
+        <div>
             <button class="Registrati">Registrati</button>
-            <div style="margin-left: 10px;">
-                <button class="Log-in">Log-in</button>
-            </div>
-        </nav>
-
-    </header>
+            <button class="Supporto">Supporto</button>
+        </div>
+    </nav>
     <main>
-        <div class="PrimoSlide">
+        <div class="PrimaParte">
 
-            <div class="PrimoImg">
-                <div class="PrimoTesto">
-                    <h1 style="font-size: 50px;" id="titoloCover">Fai un giro a Venezia</h1><br><br>
-                    <p style="font-size: 20px;width: 70%;" id="paragrafoCover">Un luogo magico e unico al mondo in grado
-                        di far innamorare chiunque la visiti. Il primo impatto con la laguna e le sue isole lascia a
-                        bocca aperta, ma è passeggiando per le vie del centro storico, tra i ponti e i canali di
-                        Venezia, che ci si rende conto di quanto sia speciale questa città.</p>
-                </div>
-                <img class="PostoTuristico"
-                    src="https://www.italia.it/content/dam/tdh/it/interests/italia/i-6-posti-piu-belli-in-italia-da-non-perdere/media/1600X1000_6_posti_piu_belli_d_italia_da_non_perdere_hero.jpg"
-                    alt="" id="immagineCover">
+            <video autoplay loop muted style="opacity: 0.6;z-index: 0;">
+                <source src="video/pexels-taryn-elliott-5309381 (1080p).mp4" type="video/mp4">
+                <source src="video/pexels-taryn-elliott-5309381 (1080p).mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <div style="display: flex;z-index: 100;align-items: center;justify-content: center;flex-direction: column;">
+                <h1 style="color: white;font-weight: bold;">Vivi nel lusso comprando una Luxury car</h1>
+                <p style="font-size: 20px;">Da noi Risparmi almeno il 50%</p>
             </div>
         </div>
-        <div class="SecondoSlide">
-            <div class="SecondoTesto">
-                <h1 style="color: white;">Viaggia con noi ad un prezzo BASSISSIMO</h1>
-                <p>Prenota ora un biglietto a 15</p>
-            </div>
-            <div class="SecondoImg">
-                <img src="https://visit.marketing-italia.eu/uploads/visitvenezia/uploads_articoli/paragrafo/20220718113558rialto-notte.jpg" alt="" style="height: 40vh;">
-                <div style="display: flex;align-items: center;justify-content: center;">
-                    <img src="https://www.amalfimarine.com/wp-content/uploads/2021/01/0.jpg" alt="" style="width: 50%;height: 50%;">
-                    <img src="https://www.campingdalpino.com/it/allegati/JPG/170__vernazza_sera_notte.jpg" alt="" style="width: 50%;height: 50%;object-fit: cover;">
+        <div style="display: flex;justify-content: center;align-content: center;">
+            <h1 style="color: white;font-weight: bold;">Dei risultati per te</h1>
+        </div>
+        <div class="SezioneCard">
+            <div class="card">
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img src="https://freepngimg.com/thumb/mclaren_p1/2-2-mclaren-p1-png-picture.png" alt="">
+                </div>
+                <h1 class="TitoloCar">Mclaren P1</h1>
+                <div style="display: flex;justify-content: space-between;align-items: center;padding-left: 10px;padding-right: 10px;">
+                    <p class="caratteristiche">0-100 km/h (62 mph)</p> <p class="caratteristiche">2.8s</p>
+                </div>
+                <div style="display: flex;justify-content: space-between;align-items: center;padding-left: 10px;padding-right: 10px;">
+                    <p class="caratteristiche">Potenza massima</p> <p class="caratteristiche">916 CV (903 bhp)</p>
+                </div>
+                <div style="display: flex;justify-content: space-between;align-items: center;padding-left: 10px;padding-right: 10px;">
+                    <p class="caratteristiche">Coppia massima</p> <p class="caratteristiche">900 Nm (654 lbft)</p>
                 </div>
             </div>
         </div>
